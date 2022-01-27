@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="qcm.css">
+	<script type="text/javascript"src="qcm.js"></script>
+	<title>QCM</title>
+</head>
+<body>
+	<div class="centre">
+	<header><h1>MON QUIZ</h1></header>
+	<form name="quest">
+
+				<!--PREMIERE QUESTION-->
+		<p>Question 1 : Quelle est le prénom de Victor ?</p>
+		<ul>
+			<input type="radio" name="1" value="a" onclick="Engine(1,this.value)">Victor  <!--BONNE REPONSE-->
+			<input type="radio" name="1" value="b" onclick="Engine(1,this.value)">Maxime
+			<input type="radio" name="1" value="c" onclick="Engine(1,this.value)">Hamza
+			<input type="radio" name="1" value="d" onclick="Engine(1,this.value)">Yanis
+		</ul>
+
+				<!--DEUXIEME QUESTION-->
+		<p>Question 2 : Quel est le département associé au numero 45 ?</p>
+		<ul>
+			<input type="radio" name="2" value="a" onclick="Engine(2,this.value)">Essonne
+			<input type="radio" name="2" value="b" onclick="Engine(2,this.value)">Seine et Marne
+			<input type="radio" name="2" value="c" onclick="Engine(2,this.value)">Loiret  <!--BONNE REPONSE-->
+			<input type="radio" name="2" value="d" onclick="Engine(2,this.value)">Var
+		</ul>
+
+				<!--PREMIERE QUESTION-->
+		<p>Question 3 : Quel est la capitale de la Belgique ?</p>
+		<ul>
+			<input type="radio" name="3" value="a" onclick="Engine(3,this.value)">Paris
+			<input type="radio" name="3" value="b" onclick="Engine(3,this.value)">Bruxelles  <!--BONNE REPONSE-->
+			<input type="radio" name="3" value="c" onclick="Engine(3,this.value)">Bruges
+			<input type="radio" name="3" value="d" onclick="Engine(3,this.value)">Gand
+		</ul>
+
+				<!--QQUATRIEME QUESTION-->
+		<p>Question 4 : Combien fait 7x8 ?</p>
+		<ul>
+			<input type="radio" name="4" value="a" onclick="Engine(4,this.value)">52
+			<input type="radio" name="4" value="b" onclick="Engine(4,this.value)">66
+			<input type="radio" name="4" value="c" onclick="Engine(4,this.value)">46
+			<input type="radio" name="4" value="d" onclick="Engine(4,this.value)">56  <!--BONNE REPONSE-->
+		</ul>
+
+				<!--CINQUIEME QUESTION-->		
+		<p>Question 5 : Quel est l'arc après Water Seven dans One Piece ?</p>
+		<ul>
+			<input type="radio" name="5" value="a" onclick="Engine(5, this.value)">Enies Lobby  <!--BONNE REPONSE-->
+			<input type="radio" name="5" value="b" onclick="Engine(5,this.value)">Marine Ford
+			<input type="radio" name="5" value="c" onclick="Engine(5,this.value)">Thriller Bark
+			<input type="radio" name="5" value="d" onclick="Engine(5,this.value)">Onigashima
+		</ul>
+
+				<!--SIXIEME QUESTION-->
+		<p>Question 6 : Comment s'appelle le second de Luffy ?</p>
+		<ul>
+			<input type="radio" name="6" value="a" onclick="Engine(6, this.value)">Zoro  <!--BONNE REPONSE-->
+			<input type="radio" name="6" value="b" onclick="Engine(6, this.value)">Sanji
+			<input type="radio" name="6" value="c" onclick="Engine(6, this.value)">Nami
+			<input type="radio" name="6" value="d" onclick="Engine(6, this.value)">Ussop
+		</ul>
+
+				<!--SEPTIEME QUESTION-->
+		<p>Question 7 : Quel est le dernier chapitre de One Piece ?</p>
+		<ul>
+			<input type="radio" name="7" value="a" onclick="Engine(7, this.value)">1038
+			<input type="radio" name="7" value="b" onclick="Engine(7, this.value)">1036
+			<input type="radio" name="7" value="c" onclick="Engine(7, this.value)">1037  <!--BONNE REPONSE-->
+			<input type="radio" name="7" value="d" onclick="Engine(7, this.value)">1035
+		</ul>
+
+				<!--HUITIEME QUESTION-->
+		<p>Question 8 : Un fermier a 17 vaches ; elles meurent toutes sauf 9. Combien en reste-t-il ?</p>
+		<ul>
+			<input type="radio" name="8" value="a" onclick="Engine(8, this.value)">17
+			<input type="radio" name="8" value="b" onclick="Engine(8, this.value)">8
+			<input type="radio" name="8" value="c" onclick="Engine(8, this.value)">9  <!--BONNE REPONSE-->
+			<input type="radio" name="8" value="d" onclick="Engine(8, this.value)">10
+		</ul>
+
+				<!--NEUFIEME QUESTION-->
+		<p>Question 9 : Quelles est la chanson la plus connu de Damso ?</p>
+		<ul>
+			<input type="radio" name="9" value="a" onclick="Engine(9, this.value)">Macarena  <!--BONNE REPONSE-->
+			<input type="radio" name="9" value="b" onclick="Engine(9, this.value)">Feu de bois
+			<input type="radio" name="9" value="c" onclick="Engine(9, this.value)">Moroze
+			<input type="radio" name="9" value="d" onclick="Engine(9, this.value)">Mosaique solitaire
+		</ul>
+
+				<!--DIXIEME QUESTION-->
+		<p>Question 10 : Quelle est la couleur d'un nuague blanc ?</p>
+		<ul>
+			<input type="radio" name="10" value="a" onclick="Engine(10, this.value)">Gris
+			<input type="radio" name="10" value="b" onclick="Engine(10, this.value)">Noir
+			<input type="radio" name="10" value="c" onclick="Engine(10, this.value)">Orageux
+			<input type="radio" name="10" value="d" onclick="Engine(10, this.value)">Blanc  <!--BONNE REPONSE-->
+		</ul>
+			<!--BOUTON POUR CONNAITRE LE RESULTAT-->
+		<input type="button" name="Resultats" value="Résultats" onclick="NextLevel()">
+	</form>	
+	</div>
+</body>
+</html>

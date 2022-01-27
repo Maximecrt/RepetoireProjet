@@ -1,0 +1,173 @@
+.centre
+{
+	width: 900px;
+	height: 1045px;
+	box-shadow: 2px 4px 3px grey;
+	font-size: 16px;
+	margin: auto;
+	padding: 0px;
+	border-top: 15px solid blue;
+	border-bottom: 15px solid blue;
+	display: block;
+}
+.entete
+{
+	border: 2px solid transparent;
+	height: 200px;
+	padding: 10px;
+	background-color: lightskyblue;
+	font-size: 13px;
+	text-align: justify;
+}
+.logo
+{
+	float: left;
+
+}
+.reference
+{
+	float: right;
+}
+.section
+{
+	width: 795px;
+	height: 290px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.datepayement
+{
+	float: right;
+	font-size: 12px;
+	font-style: italic;
+	margin-right: 0px;
+
+}
+.destinataire
+{
+	float: left;
+	margin-top: 20px;
+	padding: 10px;
+	width: 40%;
+	height: 200px;
+	margin-left: 10px;
+	font-family: fantasy;
+	font-size: 14px;
+	display: inline-block;
+	list-style-type: none;
+}
+.acheteur
+{
+	margin-top: 4px;
+	margin-right: 0px;
+	width: 40%;
+	height: 200px;
+	padding: 10px;
+	float: right;
+	font-family: fantasy;
+	font-size: 14px;
+	display: inline-block;
+	list-style-type: none;
+}
+h5
+{
+	line-height: 1em;
+	border-bottom: 3px solid blue;
+	width: 300px;
+
+
+}
+h5 span{
+	background:blue ;
+	padding: 10px;
+}
+
+h1
+{
+	color: black;
+	font-size: 26px;
+}
+.fondtab
+{ 
+	border-style: none;
+	background-color: lightgrey;
+
+ }
+ .tableau
+{
+	width: 809px;
+	display: block;
+}
+.titretab{
+	background-color: lightskyblue;
+	color: ghostwhite;
+	text-align: center;
+	border-style: none;
+}
+.final
+{
+	font-style: italic;
+	font-size: 12px;
+	float: left;
+}
+
+table.calcul
+{
+	float: right;
+	border: 0px;
+	margin: 0px;
+	border-spacing: 0;
+	text-align: right;
+	margin-right: 0px;
+	padding: 0px;
+
+}
+table .calcul input 
+{
+	border-style: hidden;
+	border-bottom: 1px solid black;
+	float: right;
+	text-align: right;
+	width: 95%;
+	display: block;
+
+}
+table .calculS input
+{
+	border-style: hidden;
+	float: right;
+	text-align: right;
+	background-color: transparent;
+	margin-right: 1px;
+	display: block;
+
+}
+table.solde
+{
+	float: right;
+	font-size: 18px;
+	background-color: #FAD7A0;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	display: block;
+
+}
+
+td.numfacture
+{
+	border-bottom: 1px solid;
+	border:  hidden;
+	background-color:lightskyblue;
+	border:  hidden;
+	border: 0px;
+}
+.basdepage
+{
+	float: left;
+	width:100%;
+	height: 200px;
+	padding: 10px;
+	margin-top: 50px;
+
+}

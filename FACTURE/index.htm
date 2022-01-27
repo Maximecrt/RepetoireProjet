@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="facture.css">
+	<script type="text/javascript" src="facture.js"></script>
+	<title>Facture</title>
+</head>
+<body>
+	<div class="centre">
+		<!--PAGE AU CENTRE-->
+
+		<div class="entete">
+			<!--DEBUT DE L'ENTETE-->
+
+			<div class="logo">
+				<img src="logo.jpg" width="100px" height="100px">
+				<p> CBS Distribution</p>
+				<em>11 Rue de Vauluizard, 45330</br>  				<!--INFORMATION ENTREPRISE-->
+				02 38 34 77 29</br>
+				cbs.distribution45@orange.fr</em>
+			</div>
+			<!--FIN DE L'ENTETE-->
+
+			<div class="reference">
+				<!--DEBUT DE LA REFERENCE DU CONTRAT-->
+				<table>
+					<tr>
+						<td><h1>Facture</h1></td>
+					</tr>
+				
+					<tr>
+					<td class="numfacture"></br>Date :<input style=
+						"border:  hidden;border: 0;background-color:lightskyblue;"type="date" name="date" id="Aujourdhui" value="" readonly></td></br></br>
+					</tr>
+					<tr>
+					<td class="numfacture"></br><input style=
+						"border:  hidden;border: 0;background-color: lightskyblue"type="text" name="facture" placeholder="N°facture"></td>
+					</tr>
+				</table>
+					<script>
+					document.getElementById("Aujourdhui").valueAsDate= new Date();
+					</script>
+			
+		</div>
+		<!--FIN DE LA REFERENCE DU CONTRAT-->
+
+
+	</div>
+		<div class="section">
+
+			<span class="datepayement">Conditions de paiement, par exemple : dans X jours</span>
+
+				<div class="destinataire">	
+						<!--INFORMATION VENDEURS-->
+					<form>
+
+					<span><h5>Vendeurs</h5></span>
+					
+						<li><input style="border-style: none;"type="text" name="nom" placeholder="Nom" value="CBS" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="nom de la société" placeholder="Nom de la société" value="CBS Distribution" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="adresse postale"placeholder="Adresse postale" value="11 Rue de Vauluizard, 45330" autocomplete="off"></li>
+
+						<td><input style="border-style: none;"type="text" name="téléphone" placeholder="Téléphone"value="02 38 34 77 29" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="email" placeholder="Email"value="cbs.distribution45@orange.fr" autocomplete="off"></li>
+					</form>
+				</div>
+				
+				<div class="acheteur">
+					<!--INFORMATION DES ACHETEURS-->
+					<form>
+					<span><h5>Acheteurs</h5></span>
+
+						<li><input style="border-style: none;"type="text" name="nom" placeholder="Nom" value="" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="nom de la société" placeholder="Nom de la société" value="" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="adresse postale"placeholder="Adresse postale" value="" autocomplete="off"></li>
+
+						<td><input style="border-style: none;"type="text" name="téléphone" placeholder="Téléphone" value="" autocomplete="off"></li>
+
+						<li><input style="border-style: none;"type="text" name="email" placeholder="Email" value="" autocomplete="off"></li>
+
+					</form>
+				</div>
+		</div>
+			
+		
+		<div class="tableau">
+								<!--INFORMATION DE CE QU'ON ACHETE-->
+			<form>
+				<table style="border: 0;margin: 0;" cellspacing="0">
+
+					<tr class="titretableau" style="border-style: none;background-color: blue;color: ghostwhite; text-align: center;">
+						<td>DESCRIPTION</td>
+						<td>QUANTITE </td>
+						<td>PRIX UNITAIRE</td>
+						<td>TOTAL</td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"  type="text" placeholder="" name="t1" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q1" placeholder="" id="q1" autocomplete="off"  ></td>
+						<td><input style="border-style:none;"type="text"name="p1" placeholder="" id="p1" autocomplete="off" ></td>
+						<td><input style="border-style:none;text-align: right;"id="r1" name="r1" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr class="fondtab">
+						<td><input style="border-style:none;"class="fondtab"type="text" placeholder="" name="t2" autocomplete="off"></td>
+						<td> <input style="border-style:none;"class="fondtab" type="text"name="q2" placeholder="" id="q2" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="p2" placeholder="" id="p2" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"class="fondtab"id="r2" name="r2" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"type="text" placeholder="" name="t3" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q3" placeholder="" id="q3" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="p3" placeholder="" id="p3" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"id="r3" name="r3" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr class="fondtab">
+						<td><input style="border-style:none;"class="fondtab"type="text" placeholder="" name="t4" autocomplete="off"></td>
+						<td><input style="border-style:none;" class="fondtab"type="text"name="q4" placeholder="" id="q4" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="p4" placeholder="" id="p4" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"class="fondtab"id="r4" name="r4" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"type="text" placeholder="" name="t5" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q5" placeholder="" id="q5" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="p5" placeholder="" id="p5" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"id="r5" name="r5" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr class="fondtab">
+						<td><input style="border-style:none;"class="fondtab"type="text" placeholder="" name="t6" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="q6" placeholder="" id="q6" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="p6" placeholder="" id="p6" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"class="fondtab"id="r6" name="r6" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"type="text" placeholder="" name="t7" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q7" placeholder="" id="q7" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="p7" placeholder="" id="p7" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"id="r7" name="r7" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr class="fondtab">
+						<td><input style="border-style:none;"class="fondtab" type="text" placeholder="" name="t8" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="q8" placeholder="" id="q8" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="p8" placeholder="" id="p8" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"class="fondtab"id="r8" name="r8" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"type="text" placeholder="" name="t9" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q9" placeholder="" id="q9" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="p9" placeholder="" id="p9" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"id="r9" name="r9" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr class="fondtab">
+						<td><input style="border-style:none;"class="fondtab"type="text" placeholder="" name="t10" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="q10" placeholder="" id="q10" autocomplete="off"></td>
+						<td><input style="border-style:none;"class="fondtab"type="text"name="p10" placeholder="" id="p10" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"class="fondtab"id="r10" name="r10" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+
+					<tr>
+						<td><input style="border-style:none;"type="text" placeholder="" name="t11" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="q11" placeholder="" id="q11" autocomplete="off"></td>
+						<td><input style="border-style:none;"type="text"name="p11" placeholder="" id="p11" autocomplete="off"></td>
+						<td><input style="border-style:none;text-align: right"id="r11" name="r11" placeholder="0.00" type="text" autocomplete="off"></td>
+					</tr>
+							<!--INFORMATION CALCUL-->
+					<table class="calcul" width="95%" border="0" style="border-style: none;">
+
+					<tr class="calcul">
+						<p class="final"><span>Remarques, notes et instructions de paiement :</span></p></br>
+									<td></td>
+									<td></td>
+									<td>SOUS-TOTAL</td>
+									<td><input type="text" name="ST1" id="ST1" value="0.00"readonly autocomplete="off"></td>
+								</tr>
+
+								<tr class="calcul">
+									<td></td>
+									<td></td>
+									<td>REMISE</td>
+									<td><input type="text" name="R1" id="R1" value="0.00" autocomplete="off"></td>
+								</tr>
+
+								<tr class="calcul">
+									<td></td>
+									<td></td>
+									<td>SOUS-TOTAL MOINS LES REMISES</td>
+									<td><input type="text" name="ST1_R1" id="ST1_R1" value="0.00"readonly autocomplete="off"></td>
+								</tr>
+
+								<tr class="calcul">
+									<td></td>
+									<td></td>
+									<td>TAUX D'IMPOSITION</td>
+									<td><input type="text" name="I1" id="I1" value="0.00%" autocomplete="off"></td> 
+								</tr>
+
+								<tr class="calcul">
+									<td></td>
+									<td></td>
+									<td>TAXE TOTALE</td>
+									<td><input type="text" name="t1" id="t1" value="0.00"readonly autocomplete="off"></td>
+								</tr>
+
+								<tr class="calculS">
+									<td></td>
+									<td></td>
+									<td>EXPEDITO, MANUTENTION</td>
+									<td><input type="text" name="EXP_m1" id="EXP_m1" value="0.00" autocomplete="off"></td>
+								</tr>
+							</table>
+
+							<table class="solde">
+
+								<tr class="calculS">
+									<td>SOMME</td>
+									<td><input style="font-size: 20px"type="text" name="solde" id="solde" value="0.00€"readonly autocomplete="off"></td>
+								</tr>
+							</table>
+						</div>
+						<div class="basdepage">
+						<input type="button" name="Calculer" onclick="calculate()" value="Calculer">
+						<input type="reset" value="Réinitialiser" id="reset">
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
