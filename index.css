@@ -1,0 +1,165 @@
+body
+{   background-color: darkred;
+    font-family: verdana, calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3
+{text-align: center;
+}
+
+nav > ul 
+{ /*haut droite bas gauche*/
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li  /*enleve tout les point des listes*/
+{
+    list-style-type: none;
+}
+
+nav /*mettre une couleur de fond au menu*/
+{
+    width: 100%;
+    border-radius: 8px;
+    background-color:blueviolet;
+}
+
+/*GRAND ONGLETS*/
+nav > ul > li 
+{
+    float: left;
+    position: relative;
+}
+
+nav a /*enleve le soulignage*/
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+nav > ul > li > a /*modifier leurs tailles*/
+{
+    padding: 20px 30px;
+    color: black;
+}
+
+.menu:hover 
+{
+    border-top: 5px solid #B0E0E6;
+    background-color: blueviolet;
+}
+
+.autres:hover
+{
+    border-top: 5px solid #E0B6E9;
+    background-color: blue;
+}
+
+nav > ul > li:hover a /*arreter de faire sauté les GO*/
+{ 
+    padding: 15px 30px 20px 30px;
+}
+
+
+
+/*SOUS ONGLETS*/
+
+.submenu /*les faire disparaitre a premiere vue*/
+{
+    display: none;
+}
+
+nav li:hover .submenu /*quand on passe dessus*/
+{
+    display: inline-block;
+    position: absolute; 
+    top: 100%;
+    left: 0px;
+    padding: 15px;
+    z-index: 100000;
+}
+
+.submenu li /*faire des cases pour les sous onglets */
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a /*modifier les sous onglets quand on passe dessus*/
+{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: darkred;
+    width: 270px;
+}
+
+.menu .submenu /*mettre une couleur de fond au SO*/
+{
+    background-color: rgba(176, 224, 230, 0.8);
+}
+
+
+.submenu li:hover a /*ecriture quand on passe dessus*/
+{
+    color: black;
+    font-weight: bold;
+}
+
+.menu .submenu li:hover /*couleur de fond quand on passe dessus*/
+{
+    background-color:blueviolet;
+}
+
+
+
+/*MOBILE*/
+nav input[type=checkbox] /*disparaitre le bouton du menu*/
+{
+    display: none;
+}
+
+.menu-mobile /*fait disparaite le mot menu*/
+{
+    display: none;
+}
+
+nav > ul:after /*un hack css (clearfix) ?*/
+{
+content: "";
+display: table;
+clear: both;
+}
+
+
+nav input[type=checkbox]:checked ~ ul 
+{
+    display: block;
+}
+@media screen and (max-width : 747px)
+{
+    .menu-mobile
+
+    {display:block;
+    color: #FEC
+    background-color: black;
+    text-align: center;
+    padding: 12px 0;}
+    
+    nav ul
+        {display: none;}
+
+    nav ul li, nav ul li a
+        {width: 100%;
+        text-align: center;}
+   
+    nav ul li a, nav ul li:hover a
+        {padding: 10px 0px 10px 0px;}
+    
+    nav li:hover .submenu
+        {display: block;
+        position: static;}
+    
+}
