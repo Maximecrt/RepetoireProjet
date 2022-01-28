@@ -1,12 +1,32 @@
-<!DOCTYPE html>
 <html>
 <head>
+	<title>Page principale</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>GitHub Maxime</title>
 </head>
 <body>
-	  <a href="FACTURE/index.htm">Facture </a>
-	   <a href="QCM/qcm.htm">Qcm</a>
+	<h3>Page princiaple</h3>
+	<nav>
+		<label for="menu-mobile" class="menu-mobile">Menu</label>
+		<input type="checkbox" id="menu-mobile" role="button">	
+		<ul>
+			<li class="menu"><a href="#">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="QCM/qcm.htm">QCM</a></li>
+					<li><a href="FACTURE/index.htm">Facture</a></li>
+				</ul>
+			</li>
+			<nav>
+		<label for="menu-mobile" class="menu-mobile">Menu</label>
+		<input type="checkbox" id="menu-mobile" role="button">
+			<ul>
+				<li class="menu"><a href="#">Php</a>
+					<ul class="submenu">
+						<li><a href="BlogPichon/Registration.php">Blog</a></li>
+						<li><a href="strestaurant/index.php">Restaurant</a></li>
+				</ul>
+			</li>
+	</nav>
 </body>
 </html>
