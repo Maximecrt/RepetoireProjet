@@ -1,0 +1,278 @@
+/*Page de connexion*/
+body {
+  background: skyblue;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  padding: 30px 25px 10px 25px;
+  background: white;
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: blue;
+  background: #f8f8f8;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -26px 26px;
+}
+.box-button {
+  border-radius: 5px;
+  background: blue;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+/*Fin de connexion*/
+
+
+
+/*Animé*/
+.titre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article{
+   border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.minichat{
+  border: 2px solid black;
+}
+.Onepiece{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageonepiece{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article2{
+   border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.Tokyorevengers{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagetokyorevengers{
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*Fin des animés*/
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/*Debut des themes*/
+h1, h3
+{
+text-align:center;
+}
+h3
+{
+
+color:white;
+font-size:0.9em;
+margin-bottom:0px;
+
+}
+.news p
+{
+background-color:#CCCCCC;
+margin-top:0px;
+}
+.news
+{
+width:70%;
+margin:auto;
+}
+
+a
+{
+text-decoration: none;
+color: blue;
+}
+/*Début*/
+body.musique{
+  background-color: black;
+}
+.articlemusique{
+   border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.ziak{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageziak{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article2musique{
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.menace{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagemenace{
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minichat2{
+  border: 2px solid white;
+}
+a{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: #FFFAFA ;
+}
+
+a:hover {
+  background: blue;
+}
+
+a:active {
+  background: blue;
+  color: white;
+}
+a:hover.deco {
+  background: red;
+}
+a:hover.inscription {
+  background: white;
+}
+a:hover.titreins{
+  background: white;
+}
+.titreins{
+  text-align: center;
+}
+.titreblog{
+  font-family:  Vivaldi;
+  font-size: 50px;
+  color: blue;
+}
+body.connexion{
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+u{
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Vivaldi;
+  font-size: 25px;
+}
+a.retour{
+  background: grey;
+  color: white;
+}

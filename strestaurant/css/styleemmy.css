@@ -1,0 +1,184 @@
+header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 10px;
+}
+body{
+	width:  100%;
+	display: flex;
+	vertical-align: top;
+	flex-direction: row;
+	justify-content:  center;
+	align-items: center;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 10px;
+    background-color: #73532B;
+
+}
+div.logo{
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-family: Vivaldi;
+	color: #CDB043;
+	font-size: 20px;
+
+
+}
+div.contenu{
+	width:  1024px;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 10px;
+
+}
+nav{
+	width: 80%;
+	display: flex;
+	flex-direction: row ;
+	justify-content: center;
+	align-items: center;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 14px;
+	
+}
+a{
+	color: #CDB043;
+}
+
+div.principal{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 10px;
+}
+img {
+	width:  100%;
+	}
+footer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	padding-left: 2px;
+	font-family: Tahoma;
+	color: #CDB043;
+	font-size: 10px;
+
+}
+section.gaucheCarte{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.droiteCarte{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+
+}
+	
+th{
+	font-family: Vivaldi;
+	width:  100%;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #CDB043;
+
+}
+td.nomPlat{
+	font-family: Tahoma;
+	width: 75%;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px;
+	color: #CDB043;
+	border-left: 1px solid #CDB043;
+}
+tr{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	border: 0px;
+}
+td.prixPlat{
+	font-family: Vivaldi;
+	font-size: 10px;
+	width: 25%;
+	color: #CDB043;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px;
+	border-right: 1px solid #CDB043;
+}
+div.centre{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.titre{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: Vivaldi;
+	font-size: 20px;
+}
+.largeur100{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+div.formElement{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+label{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+.colonne{
+	display: flex;
+	flex-direction: column;
+}
+.bordureDoree{
+	border: 1px solid #CDB043;
+}
+div.colonneCarte
+{
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+}
