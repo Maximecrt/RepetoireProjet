@@ -1,12 +1,14 @@
 body
-{   background-color: darkred;
+{ 
+    background-color: royalblue;
     font-family: verdana, calibri, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 h3
-{text-align: center;
+{
+    text-align: center;
 }
 
 nav > ul 
@@ -24,7 +26,7 @@ nav /*mettre une couleur de fond au menu*/
 {
     width: 100%;
     border-radius: 8px;
-    background-color:blueviolet;
+    background-color:black;
 }
 
 /*GRAND ONGLETS*/
@@ -44,19 +46,19 @@ nav a /*enleve le soulignage*/
 nav > ul > li > a /*modifier leurs tailles*/
 {
     padding: 20px 30px;
-    color: black;
+    color: white;
 }
 
 .menu:hover 
 {
     border-top: 5px solid #B0E0E6;
-    background-color: blueviolet;
+    background-color: royalblue;
 }
 
 .autres:hover
 {
     border-top: 5px solid #E0B6E9;
-    background-color: blue;
+    background-color: royalblue;
 }
 
 nav > ul > li:hover a /*arreter de faire sauté les GO*/
@@ -94,23 +96,24 @@ nav li:hover .submenu /*quand on passe dessus*/
     font-size: 13px;
     color: darkred;
     width: 270px;
+
 }
 
 .menu .submenu /*mettre une couleur de fond au SO*/
 {
-    background-color: rgba(176, 224, 230, 0.8);
+    background-color: white;
 }
 
 
 .submenu li:hover a /*ecriture quand on passe dessus*/
 {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .menu .submenu li:hover /*couleur de fond quand on passe dessus*/
 {
-    background-color:blueviolet;
+    background-color: royalblue;
 }
 
 
@@ -137,6 +140,7 @@ clear: both;
 nav input[type=checkbox]:checked ~ ul 
 {
     display: block;
+
 }
 @media screen and (max-width : 747px)
 {
