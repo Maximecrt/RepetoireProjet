@@ -10,10 +10,10 @@ h3
 {
     text-align: center;
 }
-h4
-{
+h4{
     text-align: center;
 }
+
 nav > ul 
 { /*haut droite bas gauche*/
     margin: 0px;
